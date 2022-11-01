@@ -1,0 +1,25 @@
+clear
+clf
+
+subplot(2,5,1)
+hold on
+daspect([1 1 1])
+plot_pca('Femur/0deg.ply','Femur',0)
+subplot(2,5,2)
+plot_pca('Femur/23deg.ply','Femur',23)
+subplot(2,5,3)
+plot_pca('Femur/52deg.ply','Femur',52)
+subplot(2,5,4)
+plot_pca('Femur/65deg.ply','Femur',65)
+subplot(2,5,5)
+plot_pca('Femur/84deg.ply','Femur',84)
+subplot(2,5,6)
+plot_pca('Tibia/0deg.ply','Tibia',0)
+subplot(2,5,7)
+plot_pca('Tibia/23deg.ply','Tibia',23)
+subplot(2,5,8)
+plot_pca('Tibia/52deg.ply','Tibia',52)
+subplot(2,5,9)
+plot_pca('Tibia/65deg.ply','Tibia',65)
+subplot(2,5,10)
+plot_pca('Tibia/84deg.ply','Tibia',84)
